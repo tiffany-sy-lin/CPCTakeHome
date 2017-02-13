@@ -1,0 +1,57 @@
+body {
+  font-family: Helvetica;
+  margin: 20px;
+}
+
+thead {
+  background-color: #f6f6f6;
+  position:absolute;
+  top:-7px;
+}
+
+th {
+  padding: 5px !important;
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  min-width: 200px; 
+}
+
+tr:hover {
+  background-color: #f7f7f7;
+}
+
+td {
+  font-size: 12px;
+  padding: 5px !important;
+  border: 1px solid #ccc;
+  width: 200px; 
+}
+
+h1, .productSelect, th {
+  color: #699; 
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px; 
+}
+
+input#myInput {
+  padding: 5px !important;
+  width: 600px; 
+}
+
+#tableWrapper {
+  position:relative;
+}
+
+#tableScroll {
+  height:270px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+
+table#productTable, table#rankingTable {
+  margin-top:20px;
+}
