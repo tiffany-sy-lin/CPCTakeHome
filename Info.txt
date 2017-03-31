@@ -1,0 +1,1 @@
+Goal: Given JSON data, create a meaningful UI for the data to be displayed to the user.
